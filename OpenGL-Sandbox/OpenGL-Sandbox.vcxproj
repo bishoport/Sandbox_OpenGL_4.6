@@ -94,9 +94,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\ShadowsLayer.h" />
     <ClInclude Include="src\SandboxLayer.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\ShadowsLayer.cpp" />
     <ClCompile Include="src\SandboxApp.cpp" />
     <ClCompile Include="src\SandboxLayer.cpp" />
   </ItemGroup>

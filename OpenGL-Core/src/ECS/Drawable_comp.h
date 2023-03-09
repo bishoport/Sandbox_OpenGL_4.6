@@ -93,8 +93,6 @@ public:
 	{
 		if (modelInfo.meshes.size() > 0)
 		{
-
-
 			for (int i = 0; i < modelInfo.meshes.size(); i++)
 			{
 				glBindVertexArray(modelInfo.meshes[i].VAO);

@@ -58,7 +58,7 @@
       <PrecompiledHeaderFile>glpch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;GLCORE_PLATFORM_WINDOWS;GLFW_INCLUDE_NONE;GLCORE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;vendor\Glad\include;vendor\imgui;vendor\glm;vendor\stb_image;vendor\TinyGLFT;C:\Users\bisho\Documents\PRODUCCION_2023\OPENGL_SANDBOX\OpenGL-Core\vendor\assimp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src;vendor\spdlog\include;vendor\GLFW\include;vendor\Glad\include;vendor\imgui;vendor\glm;vendor\stb_image;vendor\TinyGLFT;C:\Users\bisho\Documents\PRODUCCION_2023\OPENGL_SANDBOX\OpenGL-Core\vendor\assimp;C:\Users\bisho\Documents\PRODUCCION_2023\Sandbox_OpenGL_4.6\OpenGL-Core\vendor\json;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <MinimalRebuild>false</MinimalRebuild>
@@ -120,6 +120,13 @@
     <ClInclude Include="src\GLCore\Core\LayerStack.h" />
     <ClInclude Include="src\GLCore\Core\Log.h" />
     <ClInclude Include="src\GLCore\Core\MouseButtonCodes.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Camera.h" />
+    <ClInclude Include="src\GLCore\Core\Render\EBO.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Mesh.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Model.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Texture.h" />
+    <ClInclude Include="src\GLCore\Core\Render\VAO.h" />
+    <ClInclude Include="src\GLCore\Core\Render\VBO.h" />
     <ClInclude Include="src\GLCore\Core\Timestep.h" />
     <ClInclude Include="src\GLCore\Core\Window.h" />
     <ClInclude Include="src\GLCore\DataStructs.h" />
@@ -131,7 +138,7 @@
     <ClInclude Include="src\GLCore\Loaders\IMGLoader.h" />
     <ClInclude Include="src\GLCore\Loaders\ModelLoader.h" />
     <ClInclude Include="src\GLCore\Loaders\OBJLoader.h" />
-    <ClInclude Include="src\GLCore\ModelClass\Shader.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Shader.h" />
     <ClInclude Include="src\GLCore\Util\DefaultCamera.h" />
     <ClInclude Include="vendor\assimp\assimp\aabb.h" />
     <ClInclude Include="vendor\assimp\assimp\ai_assert.h" />
@@ -683,6 +690,13 @@
     <ClCompile Include="src\GLCore\Core\Layer.cpp" />
     <ClCompile Include="src\GLCore\Core\LayerStack.cpp" />
     <ClCompile Include="src\GLCore\Core\Log.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\Camera.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\EBO.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\Mesh.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\Model.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\Texture.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\VAO.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\VBO.cpp" />
     <ClCompile Include="src\GLCore\ImGui\ImGuiBuild.cpp" />
     <ClCompile Include="src\GLCore\ImGui\ImGuiLayer.cpp" />
     <ClCompile Include="src\GLCore\Loaders\IMGLoader.cpp" />

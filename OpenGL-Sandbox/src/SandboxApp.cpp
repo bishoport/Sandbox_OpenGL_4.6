@@ -1,5 +1,8 @@
 #include "GLCore.h"
+
+//Layers
 #include "SandboxLayer.h"
+#include "ShadowsLayer.h"
 
 using namespace GLCore;
 
@@ -8,7 +11,8 @@ class Sandbox : public Application
 public:
 	Sandbox()
 	{
-		PushLayer(new SandboxLayer());
+		//PushLayer(new SandboxLayer());
+		PushLayer(new ShadowsLayer());
 	}
 };
 

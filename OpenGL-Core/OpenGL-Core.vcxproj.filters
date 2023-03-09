@@ -1239,7 +1239,7 @@
     <ClInclude Include="src\ECS\material_comp.h" />
     <ClInclude Include="src\ECS\mesh_filter_comp.h" />
     <ClInclude Include="src\ECS\transform_comp.h" />
-    <ClInclude Include="src\GLCore\ModelClass\Shader.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Shader.h" />
     <ClInclude Include="src\GLCore\DataStructs.h" />
     <ClInclude Include="src\ECS\RotatorComponent.h" />
     <ClInclude Include="src\ECS\grid_world_comp.h" />
@@ -1411,6 +1411,13 @@
     <ClInclude Include="vendor\assimp\assimp\ZipArchiveIOSystem.h" />
     <ClInclude Include="src\ECS\Drawable_comp.h" />
     <ClInclude Include="src\GLCore\Util\DefaultCamera.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Camera.h" />
+    <ClInclude Include="src\GLCore\Core\Render\EBO.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Mesh.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Model.h" />
+    <ClInclude Include="src\GLCore\Core\Render\Texture.h" />
+    <ClInclude Include="src\GLCore\Core\Render\VAO.h" />
+    <ClInclude Include="src\GLCore\Core\Render\VBO.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\GLCore\Core\Application.cpp">
@@ -1459,6 +1466,13 @@
     <ClCompile Include="src\GLCore\Loaders\IMGLoader.cpp" />
     <ClCompile Include="src\GLCore\Loaders\ModelLoader.cpp" />
     <ClCompile Include="src\GLCore\Util\DefaultCamera.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\Camera.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\EBO.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\Mesh.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\Model.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\Texture.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\VAO.cpp" />
+    <ClCompile Include="src\GLCore\Core\Render\VBO.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="vendor\assimp\include\color4.inl" />

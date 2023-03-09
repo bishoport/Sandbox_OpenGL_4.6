@@ -2,7 +2,7 @@
 #include "glpch.h"
 #include "ECSCore.h"
 
-#include <GLCore/ModelClass/Shader.h>
+#include <GLCore/Core/Render/Shader.h>
 #include <GLCore/DataStructs.h>
 
 class MeshFilter : public ECS::Component
